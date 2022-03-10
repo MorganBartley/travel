@@ -1,0 +1,116 @@
+@charset "UTF-8";
+header {
+	width: 800px;
+	height: 200px;
+	background-image: url(logo/logo.jpg);
+	background-color: #AEFFEA;
+	background-size: 800px 200px;
+	background-repeat: no-repeat;
+	list-style-type: none;
+}
+nav {
+    height: 30px;
+    width: 1200;
+}
+#container nav li      {
+    display: block;
+    list-style-type: none;
+    margin: 0px 0px 0px 40px;
+    width: 137px;
+    height: 40px;
+    font-family: fino-sans, sans-serif;
+    float: left;
+    font-size: 20px;
+}
+nav a:link {
+    color: #F7C1EC;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #837CFF;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #D0F4FE;
+    background-color: #F7C1EC;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #FFD6BA;
+}
+main {
+	width: 690px;
+	height: 1200px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	background-color: #D7EAFD;
+	float: left;
+	list-style-type: none;
+}
+body {
+    background-image: url(photos/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sanvito-pro, sans-serif;
+}
+footer {
+    width: 790px;
+    height: 50px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    background-color: #FDFFC0;
+    float: left;
+    clear: both;
+}
+aside {
+    width: 100px;
+    height: 1200px;
+    background-color: #E0DDFE;
+    float: left;
+}
+#container {
+    margin: auto;
+    width: 800px;
+    list-style-type: none;
+}
+article h1{
+    font-family: acier-bat-noir,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+}
+main article h1 {
+    font-family: acier-bat-noir, sans-serif;
+    font-style: normal;
+}
+main article p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+img {
+    float: right;
+}
+article a {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    color: #668CA7;
+    font-size: 10px;
+    list-style-type: none;
+}
+.submit_btn {
+    text-decoration: none;
+    color: #D7EAFE;
+    background-color: #8882FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.submit_btn:hover {
+    background-color: #D7EAFE;
+    color: #8882FF;
+}
